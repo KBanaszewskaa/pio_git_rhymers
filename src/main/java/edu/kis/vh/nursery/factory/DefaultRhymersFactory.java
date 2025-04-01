@@ -4,6 +4,7 @@ import edu.kis.vh.nursery.DefaultCountingOutRhymer;
 import edu.kis.vh.nursery.FifoRhymer;
 import edu.kis.vh.nursery.HanoiRhymer;
 import edu.kis.vh.nursery.factory.RhymersFactory;
+//TODO: Usuń nieużywany import statement
 
 public class DefaultRhymersFactory implements RhymersFactory {
 

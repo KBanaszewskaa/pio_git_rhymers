@@ -8,6 +8,7 @@ public class DefaultCountingOutRhymer {
     private static final int DEFAULT_RETURN_VALUE = -1;
     private final int[] numbers = new int[STACK_CAPACITY];
 
+    //TODO: Usuń nieużywaną metodę
     public int getTotal() {
         return total;
     }
