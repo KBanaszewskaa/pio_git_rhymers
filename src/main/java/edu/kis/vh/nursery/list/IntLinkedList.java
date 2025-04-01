@@ -12,6 +12,7 @@ public class IntLinkedList {
     /** Ostatni dodany element stosu */
     private Node last;
 
+    //TODO: Usuń nieużywaną zmienną i
     private int i;
 
     /** Dodanie elementu na szczyt stosu
@@ -38,6 +39,7 @@ public class IntLinkedList {
         return last == null;
     }
 
+    //TODO: Zastanów się nad tym czy klasa isFull jest przydatna, jeśli zwraca tylko false
     /** Metoda sprawdzająca, czy stos jest pełny
      *
      * @return false, poniewaz lista jest dynamiczna i nie ma maksymalnego rozmiaru

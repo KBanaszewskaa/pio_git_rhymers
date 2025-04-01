@@ -4,6 +4,7 @@ import edu.kis.vh.nursery.DefaultCountingOutRhymer;
 
 public interface RhymersFactory {
 
+    //TODO: Usuń modyfikatory dostępu public z metod - metody w interfejsie są domyślnie publiczne i abstrakcyjne
     public DefaultCountingOutRhymer getStandardRhymer();
 
     public DefaultCountingOutRhymer getFalseRhymer();

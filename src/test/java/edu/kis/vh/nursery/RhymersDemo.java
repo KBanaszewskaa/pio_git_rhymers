@@ -4,6 +4,7 @@ import edu.kis.vh.nursery.DefaultCountingOutRhymer;
 import edu.kis.vh.nursery.HanoiRhymer;
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.RhymersFactory;
+//TODO: Usuń nieużywane import statement
 
 public class RhymersDemo {
 
@@ -26,6 +27,7 @@ public class RhymersDemo {
         for (int i = 1; i < 15; i++)
             rhymers[3].countIn(randomNumbers.nextInt(20));
 
+        //TODO: Zamień pętle for na rozszerzoną pętle for (for(DefaultCountingOutRhymer rhymer : rhymers))
         for (int i = 0; i < rhymers.length; i++) {
             while (!rhymers[i].callCheck())
                 System.out.print(rhymers[i].countOut() + "  ");
